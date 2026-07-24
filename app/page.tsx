@@ -3,7 +3,7 @@
 import { useState } from "react";
 
 const CHECKOUT_URL =
-  "https://pay.hotmart.com/T104543276A?off=i1mdkjph&checkoutMode=10&bid=1779832825415";
+  "https://pay.wiapy.com/Ej-y4tTM0DoZ";
 
 const samplePages = [
   "https://bibliatecamapeada.com/wp-content/uploads/2026/02/51-1024x724.png",
