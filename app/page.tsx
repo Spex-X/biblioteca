@@ -536,16 +536,6 @@ export default function Home() {
               </div>
             ))}
           </div>
-
-          <p className="mt-10 text-center text-sm text-muted-foreground">
-            Ainda restou alguma dúvida? Entre em contato:{" "}
-            <a
-              href="mailto:bibliatecamapeada@gmail.com"
-              className="font-semibold text-brand-purple underline"
-            >
-              bibliatecamapeada@gmail.com
-            </a>
-          </p>
         </div>
       </section>
 
