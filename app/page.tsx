@@ -125,11 +125,18 @@ const faqs = [
 ];
 
 function Cta({ label = "QUERO O MAPA KIDS!" }: { label?: string }) {
+  const handleClick = () => {
+    if (typeof window !== 'undefined' && (window as any).fbq) {
+      (window as any).fbq('track', 'InitiateCheckout');
+    }
+  };
+
   return (
     <a
       href={CHECKOUT_URL}
       target="_blank"
       rel="noopener noreferrer"
+      onClick={handleClick}
       className="inline-flex items-center justify-center rounded-full bg-brand-green px-8 py-5 text-lg font-extrabold uppercase tracking-wide text-white shadow-[0_8px_0_oklch(0.55_0.18_155)] transition-transform hover:scale-[1.02] active:translate-y-[2px] active:shadow-[0_4px_0_oklch(0.55_0.18_155)]"
     >
       {label}
