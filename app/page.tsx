@@ -552,24 +552,6 @@ export default function Home() {
       {/* Footer */}
       <footer className="bg-brand-purple py-10 text-center text-white">
         <div className="mx-auto max-w-5xl px-4">
-          <div className="flex justify-center gap-4">
-            <a
-              href="https://wa.me/message/CPY77AHXZDB6L1"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="rounded-full bg-brand-green px-5 py-2 text-sm font-semibold shadow"
-            >
-              WhatsApp
-            </a>
-            <a
-              href="https://www.instagram.com/bibliatecamapeada"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="rounded-full bg-brand-pink px-5 py-2 text-sm font-semibold shadow"
-            >
-              Instagram
-            </a>
-          </div>
           <img
             src="https://bibliatecamapeada.com/wp-content/uploads/2023/10/logo-bibliotecamapeada.png"
             alt="BíbliaTeca Mapeada"
